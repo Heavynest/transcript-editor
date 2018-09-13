@@ -8,6 +8,8 @@ First, you need to set up reactJS environment and webpack.
 
 run npm install to install all the dependecies. 
 
+The starting point of this web Application is React router. 
+
 
 
 
