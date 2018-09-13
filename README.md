@@ -2,6 +2,10 @@
 Online ReactJS based transcript Editor
 
 How do I set up environment?
-npm install 
+First, you need to set up reactJS environment and webpack. 
+run npm install to install all the dependecies. 
+
+
+
 
 
