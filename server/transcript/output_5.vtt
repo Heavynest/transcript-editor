@@ -1,0 +1,1842 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:04.930
+And he's going to take you through a reasonably detailed session focused 
+
+00:00:04.930 --> 00:00:09.880
+on the universal capture capabilities so you've heard us speak about that quite a bit and 
+
+00:00:09.880 --> 00:00:14.680
+tony's the man that's been the leader of that effort and so it will be exciting to have 
+
+00:00:14.870 --> 00:00:19.110
+you have a chance to do that well he's getting set up how many people have signed up for the beta 
+
+00:00:19.880 --> 00:00:24.430
+program for universal capture what on lee all right,
+
+00:00:24.430 --> 00:00:29.260
+well you're not no you're not getting out here till more people agree to sign up sze that uh 
+
+00:00:29.300 --> 00:00:34.040
+yes okay we'll have him answer that question yeah if you 
+
+00:00:34.080 --> 00:00:38.970
+how many people didn't know about the beta program okay how many people want to 
+
+00:00:38.970 --> 00:00:43.540
+be in the band program about art in the burger okay so we'll fix that today teo 
+
+00:00:45.870 --> 00:00:50.450
+have you decided it was that fool is just for my anus yes the first first 
+
+00:00:50.450 --> 00:00:54.240
+releases for magadan yeah and they'll be windows later so 
+
+00:00:55.220 --> 00:00:59.430
+but your your true if you're not a mac shop you can't use debating um 
+
+00:01:00.000 --> 00:01:04.600
+okay great what's what or what's windows is that nerd 
+
+00:01:13.680 --> 00:01:17.600
+well this is getting a serious presentation in many 
+
+00:01:17.610 --> 00:02:04.420
+ways 
+
+00:02:04.430 --> 00:02:09.410
+people enough to slice me kind of why i forgive you but no i just 
+
+00:02:09.410 --> 00:02:11.250
+made it okay consider that 
+
+00:02:19.370 --> 00:02:24.300
+all right good afternoon everybody in the interest of time being so late in the day and is 
+
+00:02:24.300 --> 00:02:28.260
+on the last session i will do my best to go 
+
+00:02:29.800 --> 00:02:34.200
+as quickly as well 
+
+00:02:34.880 --> 00:02:39.790
+just get jokes so i just want to start off by 
+
+00:02:40.000 --> 00:02:44.280
+saying how excited i am to share with you echo three sixty universal capture 
+
+00:02:44.700 --> 00:02:49.560
+on dh just for those of you who wanna wear it universal capture is on next 
+
+00:02:49.560 --> 00:02:52.580
+generation off classroom and personal capture 
+
+00:02:54.570 --> 00:02:59.320
+and actually before i get into it i am going to demo the mech divisional of universal 
+
+00:02:59.320 --> 00:03:04.060
+capture i will say that i'm using an internal development version ofthe 
+
+00:03:04.070 --> 00:03:09.010
+capture of so it's slightly different from the version we actually making available two customers like yourselves 
+
+00:03:09.610 --> 00:03:14.460
+if fell developers play a cruel joke on me they may push updates during this 
+
+00:03:14.800 --> 00:03:18.260
+presentation so with that in mind i have us 
+
+00:03:19.840 --> 00:03:21.820
+i have ass you know that's for us,
+
+00:03:21.820 --> 00:03:22.090
+right?
+
+00:03:23.200 --> 00:03:27.820
+Bill somebody would dance for assistant case to distract you all also if you didn't 
+
+00:03:27.820 --> 00:03:32.740
+knows uh tony had not uploaded slides until just now they're couples so if you looked and you thought there were 
+
+00:03:32.740 --> 00:03:33.790
+any they're actually a couple there.
+
+00:03:33.790 --> 00:03:38.670
+Now if you want to follow up and already a couple of comments so before actually starting off 
+
+00:03:38.670 --> 00:03:43.540
+with and giving you some background on universal capture i do want to cover the state ofthe capture today 
+
+00:03:44.090 --> 00:03:44.980
+is that exists with,
+
+00:03:44.990 --> 00:03:49.800
+uh echo echo three sixty so for those of you aware,
+
+00:03:49.800 --> 00:03:54.100
+i would assure me you uh you know that we support both mac 
+
+00:03:54.450 --> 00:03:58.630
+pc classroom personal uh,
+
+00:03:58.640 --> 00:04:01.970
+web based and even device based capture,
+
+00:04:02.410 --> 00:04:05.470
+which is great on these are fairly robust systems,
+
+00:04:05.800 --> 00:04:07.250
+but truth be told,
+
+00:04:07.650 --> 00:04:11.260
+some of these legacy applications are a little bit long in the tooth.
+
+00:04:11.580 --> 00:04:14.530
+And as tony allude itude two this morning,
+
+00:04:14.890 --> 00:04:16.710
+they each have their own code base.
+
+00:04:17.120 --> 00:04:21.840
+So you you probably are aware of the fact that hell 
+
+00:04:21.840 --> 00:04:25.990
+things function on a pc may not function the same on a mac 
+
+00:04:26.550 --> 00:04:28.620
+or the things that you can do on a pc.
+
+00:04:28.950 --> 00:04:33.580
+You may not be able to do on on the web if you're doing an ad hoc capture.
+
+00:04:34.060 --> 00:04:36.150
+So we we really wanted to address us,
+
+00:04:36.150 --> 00:04:37.220
+and we had two options,
+
+00:04:37.900 --> 00:04:38.600
+and thankfully,
+
+00:04:38.830 --> 00:04:42.420
+with the support of bill and cris and toni and the rest of the executive team,
+
+00:04:42.980 --> 00:04:47.810
+they gave us the opportunity to update our capture systems.
+
+00:04:48.290 --> 00:04:53.140
+And so we sit out last year when we had we did some of that internal analysis 
+
+00:04:53.430 --> 00:04:56.770
+look through the logs took all of our previous experience,
+
+00:04:57.050 --> 00:05:02.010
+looked at a ll the reviews and feedback that we got from customers and we came up with really to pas 
+
+00:05:02.010 --> 00:05:06.830
+that we could have taken first is we could continue to both on to those existing legacy 
+
+00:05:06.830 --> 00:05:11.470
+applications and do our best to provide you with all the features of functionality that you wanted 
+
+00:05:12.020 --> 00:05:12.670
+or two.
+
+00:05:13.560 --> 00:05:15.200
+We could go in a completely new direction,
+
+00:05:15.610 --> 00:05:20.550
+and it probably doesn't come as a surprise that we decided to go in a completely new direction and there's a 
+
+00:05:20.550 --> 00:05:21.480
+lot of good reasons for it,
+
+00:05:21.480 --> 00:05:26.400
+and i want to share with you four of those goals that we came up with this part of this new direction,
+
+00:05:27.680 --> 00:05:30.220
+so the first goal was easel views um,
+
+00:05:30.220 --> 00:05:34.840
+i can tell you from my own experience of working in academia and based on my discussions with 
+
+00:05:34.840 --> 00:05:36.650
+instructors and administrators alike,
+
+00:05:37.180 --> 00:05:42.160
+what they didn't want was a solution that requires an instructor in particular to have 
+
+00:05:42.160 --> 00:05:43.220
+to read the manual.
+
+00:05:43.460 --> 00:05:46.710
+We'll get some sort of training on how to do a lecture capture,
+
+00:05:47.260 --> 00:05:47.510
+okay,
+
+00:05:47.510 --> 00:05:52.350
+so we wanted to make the solution is simple and easy as possible,
+
+00:05:52.350 --> 00:05:57.240
+so that was gold number one goal number two is we wanted to make 
+
+00:05:57.240 --> 00:05:58.760
+sure this is super reliable.
+
+00:05:59.180 --> 00:06:03.860
+Last year we did an update to our capture engine for a classroom capture solution,
+
+00:06:04.350 --> 00:06:08.960
+and it used to be that if a device in and put the vice wass unplugs 
+
+00:06:08.970 --> 00:06:13.900
+accidentally or even on purpose or audio was missing or whatever the case may be 
+
+00:06:14.250 --> 00:06:15.410
+in the capture would fail.
+
+00:06:15.860 --> 00:06:20.730
+So we made an update last year and we set that as our base line that effin input device 
+
+00:06:20.730 --> 00:06:24.570
+was removed for water for whatever reason we would continue to capture,
+
+00:06:25.110 --> 00:06:30.037
+so that was our baseline third we wanted 
+
+00:06:30.037 --> 00:06:34.557
+to make sure that there was consistency so whether or not you're doing a captured through the browser 
+
+00:06:34.977 --> 00:06:39.757
+or capture on a mac or capture on a pc whatever form of capture that you're 
+
+00:06:39.757 --> 00:06:44.347
+doing we wanted to make a consistent throughout all of those different 
+
+00:06:44.917 --> 00:06:49.407
+avenues and wanted to make it again so so 
+
+00:06:50.107 --> 00:06:54.947
+if you were to do training for instructors in particular that's one time training and it doesn't matter 
+
+00:06:54.947 --> 00:06:59.747
+which option they use they can expect to see the exact same uh 
+
+00:06:59.757 --> 00:07:04.637
+workflow and experience and fourth we wanted to build a solution that was 
+
+00:07:04.637 --> 00:07:09.267
+smarter and what i really mean by this is again alluding to what tony mentioned to us this morning 
+
+00:07:09.647 --> 00:07:14.627
+rather than having a ll these different code bases and all these different approaches to coming up with a solution 
+
+00:07:15.127 --> 00:07:19.547
+we have a single code base that allows us to put out 
+
+00:07:19.547 --> 00:07:24.487
+functionality quicker more effectively which is great for you and great for 
+
+00:07:24.487 --> 00:07:25.737
+us as well ok,
+
+00:07:26.647 --> 00:07:31.257
+so those who are full primary goals that we came up with this we started and backing on this new 
+
+00:07:31.257 --> 00:07:36.067
+universal capture road path let me just go the 
+
+00:07:36.067 --> 00:07:40.977
+you i really quickly so it's a cz some of you are probably aware right now without 
+
+00:07:40.977 --> 00:07:45.867
+legacy solutions we'll provide you with a little stamp size preview off the 
+
+00:07:45.867 --> 00:07:50.537
+imports that are going on so what we've endeavored to do now is actually blow up those previews 
+
+00:07:50.797 --> 00:07:53.427
+as biggest possible just make it easier on the engines.
+
+00:07:53.427 --> 00:07:53.747
+All right?
+
+00:07:54.797 --> 00:07:59.467
+We've removed all the optional features from the 
+
+00:07:59.467 --> 00:08:04.447
+actual u y so even though this looks for those you have for those of you who 
+
+00:08:04.447 --> 00:08:05.397
+haven't seen this before,
+
+00:08:05.627 --> 00:08:10.157
+this look starkly different from other solution because there's now less options 
+
+00:08:10.937 --> 00:08:14.547
+okay less options on the main screen we're just tucked them away okay?
+
+00:08:14.547 --> 00:08:19.417
+Because our optional we support one touch recording and 
+
+00:08:19.417 --> 00:08:22.977
+instructor can literally walk into the room if there was no scheduled capture,
+
+00:08:23.507 --> 00:08:25.577
+push that button and away they go,
+
+00:08:26.580 --> 00:08:28.220
+then they can leave the classroom afterwards.
+
+00:08:28.490 --> 00:08:32.420
+That's simple one touch recording so again looking for ease and simplicity 
+
+00:08:33.610 --> 00:08:38.230
+to select and changing of the input devices we have two menus here you can have 
+
+00:08:38.230 --> 00:08:43.130
+display over there on the left the right size doesn't matter trying to provide you 
+
+00:08:43.130 --> 00:08:47.890
+with a little bit of flexibility in some options there same with the audio input 
+
+00:08:48.400 --> 00:08:52.090
+to select from the from the menu and if you have multiple options available,
+
+00:08:52.200 --> 00:08:55.710
+pick one and away you go so try to make a simple is possible.
+
+00:08:56.310 --> 00:08:56.870
+Um,
+
+00:08:57.150 --> 00:09:01.930
+we have timers here and you can see that's set to zero because it's not actually recording right 
+
+00:09:01.930 --> 00:09:06.880
+now but that's just a visual to oran indicated to an instructor or an jesu that nothing is actually 
+
+00:09:06.880 --> 00:09:11.840
+happening right now you're not in you're not actually recording when a 
+
+00:09:11.840 --> 00:09:16.750
+recording is actually going on then the view changes just slightly so we locked 
+
+00:09:16.750 --> 00:09:21.500
+down the screen and now we just give you the textural feedback off the 
+
+00:09:21.500 --> 00:09:26.480
+input devices that have been captured and then rather than a record 
+
+00:09:27.010 --> 00:09:31.440
+now we just have a finish and a pause button really simple okay,
+
+00:09:31.440 --> 00:09:36.330
+trying to make it as easy as possible for in jesus um you can see we have the 
+
+00:09:36.330 --> 00:09:41.260
+visual indicator over the amount of time that has actually possible then capture this is an hour 
+
+00:09:41.260 --> 00:09:45.420
+long recording and in this case it's eleven seconds into it.
+
+00:09:45.460 --> 00:09:45.670
+Okay,
+
+00:09:45.670 --> 00:09:50.630
+so just getting started right now we have two core controls the middle one hears 
+
+00:09:50.630 --> 00:09:55.550
+this pause everybody should probably familiar with that and then to the left of it 
+
+00:09:55.550 --> 00:09:56.690
+we haven't finish.
+
+00:09:57.030 --> 00:09:57.410
+Okay,
+
+00:09:58.030 --> 00:10:02.750
+finish um there's a lot of options that we actually 
+
+00:10:02.750 --> 00:10:03.950
+support with an echo and i listen,
+
+00:10:03.960 --> 00:10:05.720
+the more that i know i'm not going to go into each one of them,
+
+00:10:06.350 --> 00:10:11.080
+but i am going to show you and emma some of these to you uh,
+
+00:10:11.150 --> 00:10:15.920
+we actually as part of the baker beta program right now we're really doing our best to get 
+
+00:10:15.920 --> 00:10:20.910
+feedback from injuries is like yourself and so we have some poles that are 
+
+00:10:20.910 --> 00:10:23.110
+currently available now feedback,
+
+00:10:23.110 --> 00:10:27.570
+form and honor on the active lonely platform and where we want to be able to 
+
+00:10:27.570 --> 00:10:29.030
+support your use cases,
+
+00:10:29.030 --> 00:10:33.755
+your needs what have you so i do have a pole for your and whether or not regardless of 
+
+00:10:33.755 --> 00:10:35.755
+whether you are an administrator or not,
+
+00:10:36.055 --> 00:10:37.655
+i would like to get your feedback on this.
+
+00:10:38.225 --> 00:10:41.525
+So the pole is specifically doesn't show so well here,
+
+00:10:41.845 --> 00:10:45.795
+but there's a cross button that's disabled right now.
+
+00:10:46.275 --> 00:10:46.655
+Okay,
+
+00:10:47.005 --> 00:10:51.965
+so i want to get your feedback on that cross on these two questions here and i'll go explain and give you a little bit of 
+
+00:10:51.965 --> 00:10:52.735
+context here.
+
+00:10:53.825 --> 00:10:57.635
+So we have gotten some feedback from administrators and instructors.
+
+00:10:57.895 --> 00:11:02.505
+Sometimes administrators get frustrated with instructive where the setup a scheduled 
+
+00:11:02.505 --> 00:11:04.255
+capture an instructor.
+
+00:11:04.255 --> 00:11:05.395
+For whatever reason,
+
+00:11:05.675 --> 00:11:08.355
+you purposefully purposely all by mistake,
+
+00:11:08.815 --> 00:11:10.185
+they have cancelled that capture.
+
+00:11:10.585 --> 00:11:13.105
+So it's a missed opportunity right for students.
+
+00:11:13.735 --> 00:11:18.525
+So this first option here is about whether or not you 
+
+00:11:18.525 --> 00:11:21.175
+want the option to enable,
+
+00:11:21.745 --> 00:11:26.705
+provide the ability to enable or disable the canceling off a 
+
+00:11:26.705 --> 00:11:28.975
+scheduled capture off for instructors.
+
+00:11:30.525 --> 00:11:32.345
+So as administrators do you want there?
+
+00:11:32.345 --> 00:11:33.075
+Toggle option.
+
+00:11:34.985 --> 00:11:35.815
+Just take a minute,
+
+00:11:35.815 --> 00:11:37.535
+get your thoughts and feedback on that.
+
+00:11:54.635 --> 00:11:55.245
+Okay,
+
+00:11:55.255 --> 00:11:55.425
+let's,
+
+00:11:55.425 --> 00:11:56.225
+take a look.
+
+00:11:58.095 --> 00:11:58.415
+All right?
+
+00:11:58.985 --> 00:11:59.465
+Yes.
+
+00:11:59.475 --> 00:12:04.425
+So we we can enable administrators whether or not you want to enable instructed 
+
+00:12:04.425 --> 00:12:06.215
+us to cancel a capture,
+
+00:12:06.715 --> 00:12:07.625
+so that's that's,
+
+00:12:07.635 --> 00:12:08.415
+pol number one,
+
+00:12:08.755 --> 00:12:12.815
+the second one is very much related to this so assuming you we give you that that,
+
+00:12:12.825 --> 00:12:16.425
+um that ability there's been a lot of discussion off.
+
+00:12:16.435 --> 00:12:16.675
+Well,
+
+00:12:16.675 --> 00:12:20.475
+how long do we want to give instructors the ability to cancel a capture?
+
+00:12:20.975 --> 00:12:21.135
+You know,
+
+00:12:21.135 --> 00:12:25.765
+two minutes into a lecture but probably not going to be looking at the screen or the or the recording 
+
+00:12:26.235 --> 00:12:31.075
+so we can disable it after after that time maybe we need to give you a little bit more time a 
+
+00:12:31.075 --> 00:12:35.504
+little bit more flexibility so we'll give you five minutes before we 
+
+00:12:35.504 --> 00:12:39.564
+disabled the cancel option option for instructors 
+
+00:12:40.144 --> 00:12:45.144
+or option number c option c is we can always leave it 
+
+00:12:45.144 --> 00:12:45.444
+on.
+
+00:12:45.914 --> 00:12:50.844
+So what that implies is and instruct that can come in and either cancel a 
+
+00:12:50.844 --> 00:12:55.554
+scheduled capture within the first minute or if it's an hour long capture 
+
+00:12:55.864 --> 00:12:59.424
+it can cancel a fifty nine minutes into that lecture 
+
+00:13:00.794 --> 00:13:04.544
+just keep in mind once it's cancelled it's gone there's no retrieving it.
+
+00:13:05.284 --> 00:13:05.514
+Okay,
+
+00:13:05.514 --> 00:13:09.594
+so three options there give you a minute see what you think 
+
+00:13:15.004 --> 00:13:19.694
+sorry don't allow him to 
+
+00:13:19.704 --> 00:13:24.604
+cancel so as the administrator your toggle would be we will be to keep it disabled 
+
+00:13:25.334 --> 00:13:30.244
+they cannot cancel it first we could just you could just look at this not giving you options 
+
+00:13:32.714 --> 00:13:37.674
+so this option is you have given the option for the instructed to cancel it how long do you 
+
+00:13:37.674 --> 00:13:39.924
+want to give him two minutes five minutes indefinitely 
+
+00:13:47.944 --> 00:13:48.304
+okay,
+
+00:13:48.604 --> 00:13:51.334
+so roughly five minutes and you is an administrator.
+
+00:13:51.334 --> 00:13:55.894
+You can enable the option for instructors to cancel a scheduled classroom 
+
+00:13:56.034 --> 00:13:56.494
+capture.
+
+00:13:57.534 --> 00:13:57.864
+Perfect.
+
+00:13:57.864 --> 00:13:58.414
+Thank you very much.
+
+00:13:58.414 --> 00:13:59.274
+We can certainly do that.
+
+00:14:00.334 --> 00:14:00.854
+Um,
+
+00:14:02.884 --> 00:14:04.654
+before actually get into the roadmap.
+
+00:14:05.574 --> 00:14:06.814
+Let me see if we can do a demo.
+
+00:14:07.604 --> 00:14:12.494
+So have a camera here facing towards the 
+
+00:14:12.494 --> 00:14:13.044
+front.
+
+00:14:13.864 --> 00:14:14.954
+I'm gonna switch over.
+
+00:14:15.914 --> 00:14:20.294
+What you see here is firefox safari and the desktop application.
+
+00:14:21.524 --> 00:14:23.174
+This is part of universal capture.
+
+00:14:23.594 --> 00:14:26.534
+Want to show you how everything works in ports in unison.
+
+00:14:27.434 --> 00:14:29.464
+So i have the flexibility i'm not recording right now.
+
+00:14:29.464 --> 00:14:30.544
+You see my view you're meeting,
+
+00:14:30.624 --> 00:14:33.174
+jumping up and down the flexibility.
+
+00:14:33.920 --> 00:14:35.170
+Maybe i want to show display,
+
+00:14:35.590 --> 00:14:36.810
+see how they all work in tandem.
+
+00:14:37.730 --> 00:14:37.950
+That's,
+
+00:14:37.950 --> 00:14:38.860
+universal capture.
+
+00:14:41.090 --> 00:14:43.510
+Maybe i want to keep the two videos to video inputs.
+
+00:14:46.250 --> 00:14:46.720
+So?
+
+00:14:49.030 --> 00:14:50.060
+So come on,
+
+00:14:50.060 --> 00:14:50.960
+hd camera here.
+
+00:14:51.500 --> 00:14:55.980
+Camera facing that way i could do to to desktop imports if i want so a little bit of 
+
+00:14:55.980 --> 00:14:56.510
+flexibility,
+
+00:14:56.510 --> 00:14:56.750
+right?
+
+00:14:57.480 --> 00:14:57.950
+I'm gonna,
+
+00:14:57.960 --> 00:14:58.590
+uh,
+
+00:14:59.170 --> 00:15:01.590
+show me to do one more show.
+
+00:15:01.590 --> 00:15:05.630
+You one more thing here on my phone actually have universal capture.
+
+00:15:07.110 --> 00:15:08.200
+We'll see if this works.
+
+00:15:08.270 --> 00:15:13.010
+Hopefully hasn't time doubt change the input goes back to 
+
+00:15:13.010 --> 00:15:17.330
+nothing think about the possibilities that are there 
+
+00:15:17.840 --> 00:15:22.560
+now i'm not so sure about instructors but i'm going to show you in a minute.
+
+00:15:22.570 --> 00:15:23.570
+For administrators,
+
+00:15:23.570 --> 00:15:28.460
+what this means in particular is that we can untether you from your office or your 
+
+00:15:28.460 --> 00:15:29.000
+desk,
+
+00:15:29.500 --> 00:15:34.360
+and you could be anywhere in the world at any time and preview exactly what's 
+
+00:15:34.360 --> 00:15:34.860
+going on,
+
+00:15:35.240 --> 00:15:35.450
+okay,
+
+00:15:35.450 --> 00:15:39.980
+that's all part of confidence wanted on your smartphone on your tablet,
+
+00:15:40.640 --> 00:15:41.460
+on the computer,
+
+00:15:42.050 --> 00:15:44.080
+wherever all you need is a connection,
+
+00:15:47.940 --> 00:15:51.060
+lifestream is an option with scheduled capture.
+
+00:15:52.990 --> 00:15:57.680
+We are looking tio have a little bit more on this case,
+
+00:15:57.690 --> 00:16:02.230
+so i have the option of controlling all this from here.
+
+00:16:03.160 --> 00:16:04.720
+One might go and start a recording,
+
+00:16:04.980 --> 00:16:09.210
+so five second countdown has instructed a little bit of time to prepare and get ready for capture 
+
+00:16:10.090 --> 00:16:10.950
+and were often running.
+
+00:16:11.410 --> 00:16:16.120
+Now this one you've seen this mrs here because it's being roughly fifteen minutes and after 
+
+00:16:16.120 --> 00:16:16.750
+fifteen minutes,
+
+00:16:16.750 --> 00:16:18.060
+we stopped polling the server,
+
+00:16:18.250 --> 00:16:20.640
+so we're not constantly berating your service,
+
+00:16:20.940 --> 00:16:21.270
+okay,
+
+00:16:21.540 --> 00:16:24.230
+so probably in a few minutes just to do the same,
+
+00:16:24.230 --> 00:16:27.230
+but i'm going to close down the browsers,
+
+00:16:29.300 --> 00:16:30.220
+safari,
+
+00:16:31.630 --> 00:16:31.880
+it's,
+
+00:16:31.880 --> 00:16:32.940
+five bucks,
+
+00:16:36.172 --> 00:16:36.852
+so here.
+
+00:16:37.292 --> 00:16:40.882
+So i want to demonstrate a keyboard navigation,
+
+00:16:40.892 --> 00:16:42.922
+so we want to be able to support accessibility.
+
+00:16:43.172 --> 00:16:46.852
+Even though i've started a capture and have locked down most of the controls,
+
+00:16:47.072 --> 00:16:48.762
+there are still a few options of elephants.
+
+00:16:48.812 --> 00:16:53.762
+Available to me as an instructor or end user so i can tap through here and i 
+
+00:16:53.762 --> 00:16:54.862
+can extend the time,
+
+00:16:55.212 --> 00:16:59.712
+so using my keyboard or even my mouse and click on this and this is actually a 
+
+00:16:59.712 --> 00:17:00.822
+smart timer.
+
+00:17:01.132 --> 00:17:06.042
+So if there's another capture that scheduled after this this l a long session 
+
+00:17:06.692 --> 00:17:11.222
+let's just say there's a fifteen minute break this will only allow me to add five minutes,
+
+00:17:11.232 --> 00:17:12.082
+ten minutes,
+
+00:17:12.422 --> 00:17:13.822
+maybe fifteen months,
+
+00:17:14.842 --> 00:17:19.642
+but won't allow me to add thirty minutes that it won't be an option so that's a smart ability to 
+
+00:17:19.652 --> 00:17:24.132
+add additional time to capture and then again using people navigation i can 
+
+00:17:25.292 --> 00:17:30.142
+i can't pause visual indicate a visual cue to the to the 
+
+00:17:30.142 --> 00:17:30.712
+ngos that,
+
+00:17:31.052 --> 00:17:31.262
+hey,
+
+00:17:31.262 --> 00:17:32.002
+this is paused,
+
+00:17:32.512 --> 00:17:35.122
+but notice this still counting down?
+
+00:17:36.222 --> 00:17:36.862
+Why is that?
+
+00:17:38.032 --> 00:17:42.862
+Because i'm eating a part of my hour long time available to me 
+
+00:17:43.122 --> 00:17:45.132
+to actually capture right nothing's going on?
+
+00:17:45.142 --> 00:17:46.342
+You can see this is paused,
+
+00:17:47.252 --> 00:17:49.042
+but i'm still taking a part of my hour long.
+
+00:17:49.212 --> 00:17:53.372
+So visual cues for the instructor of the andes heir they may or may not see thatjust,
+
+00:17:53.382 --> 00:17:58.202
+but just want to make sure you're aware and then to resume again keyboard navigation 
+
+00:17:59.882 --> 00:18:04.702
+i'm back in business right when i'm 
+
+00:18:04.702 --> 00:18:05.192
+done,
+
+00:18:06.742 --> 00:18:09.032
+if this is a schedule capture in particular,
+
+00:18:09.032 --> 00:18:10.052
+or even an ad hoc capture,
+
+00:18:10.052 --> 00:18:15.022
+for that matter um you have the option of where you want to publish this to so at the end of 
+
+00:18:15.022 --> 00:18:19.672
+the cellar i could walk out of the classroom and i will know with certainty there's going to either be published 
+
+00:18:19.672 --> 00:18:24.522
+to my library by default or a section if it 
+
+00:18:24.522 --> 00:18:29.292
+has been scheduled that way or if i've chosen to publish it to a section is part of that whole capturing 
+
+00:18:30.062 --> 00:18:33.212
+okay to finish,
+
+00:18:33.672 --> 00:18:37.492
+i just want we just want to make sure hey,
+
+00:18:37.492 --> 00:18:38.782
+you've got an hour available.
+
+00:18:38.782 --> 00:18:40.462
+Are you sure you want to finish now?
+
+00:18:40.712 --> 00:18:44.182
+There's fifty seven minutes and twenty six seconds remaining again?
+
+00:18:44.182 --> 00:18:48.912
+Just that visual feedback that visual cue for your end users so that they understand and no 
+
+00:18:49.212 --> 00:18:51.192
+repercussions of exactly what's going on,
+
+00:18:51.622 --> 00:18:52.992
+they can keep capturing well,
+
+00:18:52.992 --> 00:18:54.472
+they could finish now.
+
+00:18:54.472 --> 00:18:54.862
+Right now,
+
+00:18:54.862 --> 00:18:58.012
+when i finish when i finished,
+
+00:18:58.012 --> 00:19:00.382
+we're just going to provide you with a basic message,
+
+00:19:00.752 --> 00:19:05.312
+but soon what we're going to provide you with is a length directly to that 
+
+00:19:05.312 --> 00:19:09.352
+capture so you can see and verified in your library or in their particular section 
+
+00:19:14.032 --> 00:19:14.342
+no,
+
+00:19:15.102 --> 00:19:16.422
+uh could be oh,
+
+00:19:16.642 --> 00:19:21.632
+i'm gonna get to that hold that thought bill by the foot 
+
+00:19:21.722 --> 00:19:23.802
+by the photo it is an hour ah,
+
+00:19:23.802 --> 00:19:25.852
+but certainly you could go much longer 
+
+00:19:29.142 --> 00:19:29.512
+all right,
+
+00:19:29.512 --> 00:19:31.152
+so that's universal capture and again,
+
+00:19:31.152 --> 00:19:35.802
+this is the desktop education safari a ll the browsers are supported 
+
+00:19:36.092 --> 00:19:40.742
+universal look and feel the entire approach consistency across the board 
+
+00:19:41.652 --> 00:19:46.022
+would want to jump back and show you uh 
+
+00:19:46.742 --> 00:19:51.392
+how administrators can benefit from this so this should be familiar to most administrators 
+
+00:19:51.722 --> 00:19:56.522
+this is the rooms page now with universal capture we've added this new icon it's a camera 
+
+00:19:56.522 --> 00:20:00.892
+right now i think we're going to change it to a uh like a movie 
+
+00:20:01.602 --> 00:20:06.312
+more of a movie type field but bye all of those rules were universal capture is 
+
+00:20:06.312 --> 00:20:10.922
+enabled i could now click into that and see exactly what's going on so 
+
+00:20:11.732 --> 00:20:15.912
+uh this is my this is my device here.
+
+00:20:15.912 --> 00:20:20.642
+This is i assume this is this is the room as an administrator i can go in 
+
+00:20:21.562 --> 00:20:25.552
+and i can see exactly what's going on i could see the room,
+
+00:20:25.772 --> 00:20:30.612
+i can see the inputs all that sort of stuff i can see rob raising his 
+
+00:20:30.612 --> 00:20:34.282
+handle this sort of good stuff right now currently we don't have audio,
+
+00:20:34.572 --> 00:20:37.012
+you can see the humidor and that's working perfectly fine,
+
+00:20:37.282 --> 00:20:39.572
+but we don't have actual audio that you can listen in to.
+
+00:20:39.982 --> 00:20:43.682
+That is certainly something that we're planning on adding in the future additionally,
+
+00:20:43.682 --> 00:20:47.942
+for administrators that come in and look at this want to provide you with analytics,
+
+00:20:47.952 --> 00:20:48.232
+right?
+
+00:20:48.232 --> 00:20:53.082
+So a history off the captains that have that have occurred in this room over the 
+
+00:20:53.082 --> 00:20:54.792
+past week over the past month or what?
+
+00:20:54.882 --> 00:20:59.702
+What have you providing you with all sorts of information about downtime 
+
+00:20:59.712 --> 00:21:00.232
+up time?
+
+00:21:00.232 --> 00:21:02.432
+How many hours of capture on this this device,
+
+00:21:02.792 --> 00:21:06.092
+perhaps even a schedule ofthe upcoming lectures,
+
+00:21:06.092 --> 00:21:09.742
+or captures that air gun occur in this room on this device?
+
+00:21:10.162 --> 00:21:14.302
+So one of empower you as an administrator's with as much information as possible,
+
+00:21:14.652 --> 00:21:19.612
+and hopefully this will feed into the reports that a teresa's building 
+
+00:21:19.612 --> 00:21:21.792
+out as well so that's,
+
+00:21:21.792 --> 00:21:23.282
+universal capture let's,
+
+00:21:23.282 --> 00:21:26.492
+take a quick look at the road man.
+
+00:21:30.352 --> 00:21:33.642
+So we're super excited about some of the things that we want to build on here,
+
+00:21:34.062 --> 00:21:39.002
+but trying to be cognizant and mindful of the fact we have to maintain and 
+
+00:21:39.002 --> 00:21:43.782
+keep it as simple as possible and easy to use for instructors in 
+
+00:21:43.782 --> 00:21:45.372
+particular and all and use us.
+
+00:21:45.702 --> 00:21:48.592
+So a lot of these things that were proposing here and that we're working on,
+
+00:21:49.142 --> 00:21:51.012
+we're going on with that mindset,
+
+00:21:51.022 --> 00:21:55.132
+keeping a simple as possible so i won't go into all of these in detail.
+
+00:21:55.132 --> 00:22:00.012
+But for those of you who have signed up for the universal capture beta we 
+
+00:22:00.012 --> 00:22:02.472
+have in our and our feedback forum,
+
+00:22:02.782 --> 00:22:07.412
+we have a similar version of this where we showing our major milestones,
+
+00:22:07.692 --> 00:22:08.462
+major mom,
+
+00:22:08.592 --> 00:22:13.342
+major and minor milestones we want toby is transparent as possible with you and let you 
+
+00:22:13.342 --> 00:22:17.872
+know as much information as possible as we're rolling out some of these new 
+
+00:22:17.872 --> 00:22:22.752
+features so right now we have make a wish and we're calling it shared mode but essentially this 
+
+00:22:22.752 --> 00:22:27.652
+just classroom capture were working on personal capture and windows 
+
+00:22:27.652 --> 00:22:32.392
+mode right now and al goal isto release both of these 
+
+00:22:32.552 --> 00:22:37.272
+in the summer time frame to give you an opportunity to kind of kick the tires of test assault for yourselves 
+
+00:22:37.566 --> 00:22:41.226
+before uh before university starts back up again 
+
+00:22:42.576 --> 00:22:47.556
+just touching on some of these things here so getting back to bill's question here about can i can you kept 
+
+00:22:47.556 --> 00:22:52.426
+it for more than one hour right now we have a limitation of four hours but we 
+
+00:22:52.426 --> 00:22:56.976
+are going to extend this by august up to eight plus hours of capture 
+
+00:22:57.236 --> 00:23:02.006
+so you could decision could go on an entire day kept everything that's going on the room and you 
+
+00:23:02.006 --> 00:23:06.946
+golden somebody would probably have to come back and edited after the fact but if that's the workflow in the 
+
+00:23:06.946 --> 00:23:11.876
+model that you want to support we want to be ableto provide their capability for you in order 
+
+00:23:11.876 --> 00:23:16.646
+to update is what cassidy covered earlier we've got some major changes going on there especially 
+
+00:23:16.646 --> 00:23:21.286
+excited about hls we want to be able to rip out flash from our system 
+
+00:23:22.016 --> 00:23:26.986
+there's some other other benefits that come with that as well that's that development is actually going on 
+
+00:23:26.986 --> 00:23:31.956
+right now so i anticipate we're going to see that earlier than we originally planned which 
+
+00:23:31.956 --> 00:23:36.906
+is fantastic and it's going to probably follow the same model that we had with secure 
+
+00:23:36.906 --> 00:23:41.806
+clown front and what i mean by that is we're going to enable this as an option for 
+
+00:23:41.806 --> 00:23:46.436
+you and if we find out or if you let us know that there's any problems with hls 
+
+00:23:46.726 --> 00:23:50.326
+we can immediately revert to the existing system okay?
+
+00:23:50.326 --> 00:23:54.626
+So we're trying to lessen the pain there if you will be provided as much flexibility as well 
+
+00:23:55.226 --> 00:24:00.126
+confidence monitoring i test upon really briefly we've got big plans about adding more capabilities 
+
+00:24:00.126 --> 00:24:05.056
+there especially around analytics and empowering administrators and then some other features 
+
+00:24:05.056 --> 00:24:09.966
+there as well including narrow media playback and nair life playback feel free to 
+
+00:24:09.966 --> 00:24:12.826
+take me if you have any questions or are curious about what those are 
+
+00:24:16.626 --> 00:24:21.306
+uh they can see everything so any room that 
+
+00:24:21.306 --> 00:24:26.286
+universal capture is installed them they can go in and see exactly what's going on in that room 
+
+00:24:27.506 --> 00:24:32.346
+i should add i should add um so just to be 
+
+00:24:32.346 --> 00:24:36.936
+clear there's two versions there's going to be classic capture and there's going to be 
+
+00:24:36.936 --> 00:24:41.784
+personal capture classroom capture allows the administrators to go in a preview exactly what's 
+
+00:24:41.784 --> 00:24:46.464
+going on over there that's that confidence monitoring piece personal capture 
+
+00:24:47.084 --> 00:24:51.634
+in no way does that allow an administrator to see what's going on 
+
+00:24:51.984 --> 00:24:56.774
+on a user's computer no way it'll okay so i want to make sure that's 
+
+00:24:56.774 --> 00:25:01.624
+clear chris and claire to all users and instructed downloads in the stools 
+
+00:25:01.834 --> 00:25:05.124
+personal capture nobody can see what's going on this screen 
+
+00:25:11.174 --> 00:25:15.964
+yes or no conference wanted thing i get again that's something that we're building into kind of the 
+
+00:25:15.964 --> 00:25:20.724
+confidence monetary peace be like hester grams ability the ability to actually 
+
+00:25:20.724 --> 00:25:25.554
+listen into into a room so that you know whether the audio literal is high high 
+
+00:25:25.554 --> 00:25:29.544
+enough forfeits too low you can possibly change their remotely 
+
+00:25:36.044 --> 00:25:40.994
+yes with custom catcher does right now we're going to build a separate offline mode a cz 
+
+00:25:40.994 --> 00:25:45.794
+part ofthe personal capture so if you're on a train perhaps or a few away 
+
+00:25:45.794 --> 00:25:50.644
+from my wife like connection you still have to do a local capture and then it gets automatically 
+
+00:25:50.644 --> 00:25:55.524
+uploaded the next time you go online uh this is a good 
+
+00:25:55.524 --> 00:26:00.234
+one so just to respond to the comedy mate is that universal capture is a personal 
+
+00:26:00.244 --> 00:26:05.054
+captures so just be clear about this this one code it's one solution but it 
+
+00:26:05.054 --> 00:26:09.864
+does have to separate install modes one is kind of a shared install mode that you would 
+
+00:26:09.864 --> 00:26:14.814
+use in a shared environment like this and one is a personal mode that you have on your own device for all the 
+
+00:26:14.814 --> 00:26:19.584
+reasons tony to set imagine you were an instructor and you had this install on your 
+
+00:26:19.584 --> 00:26:24.434
+laptop and somehow you're sitting at home recording in your living room and you're adam and kind 
+
+00:26:24.434 --> 00:26:26.954
+of tunnel into your laptop and look at what's going on there.
+
+00:26:26.954 --> 00:26:28.174
+That would always be a problem.
+
+00:26:28.184 --> 00:26:30.074
+So but it's it's one.
+
+00:26:30.174 --> 00:26:32.194
+This one code based on two separate installments.
+
+00:26:32.204 --> 00:26:32.864
+Essentially,
+
+00:26:33.454 --> 00:26:38.184
+and as administrative you have control of whether or not you want to provide 
+
+00:26:38.194 --> 00:26:43.194
+instructors with the ability to download personal capture very similar 
+
+00:26:43.194 --> 00:26:44.934
+toe the options over provide today.
+
+00:26:44.944 --> 00:26:47.354
+So there'll be a tuggle tuggle.
+
+00:26:47.724 --> 00:26:48.394
+And then,
+
+00:26:48.694 --> 00:26:52.084
+when when and if you're ready to work with the instructors to say,
+
+00:26:52.344 --> 00:26:52.524
+hey,
+
+00:26:52.524 --> 00:26:55.104
+try out this new version of universal capture,
+
+00:26:55.644 --> 00:27:00.064
+enable their trouble that they can go to the downloads page and then download on stolen on their personal 
+
+00:27:00.064 --> 00:27:00.654
+computers.
+
+00:27:02.044 --> 00:27:02.484
+Um,
+
+00:27:02.724 --> 00:27:02.964
+carey,
+
+00:27:02.964 --> 00:27:03.194
+please.
+
+00:27:03.774 --> 00:27:04.294
+Stolen 
+
+00:27:05.784 --> 00:27:10.464
+way 
+
+00:27:10.474 --> 00:27:12.654
+connected with correct 
+
+00:27:14.744 --> 00:27:16.014
+way device.
+
+00:27:18.544 --> 00:27:19.044
+So it's,
+
+00:27:19.524 --> 00:27:20.184
+so basically,
+
+00:27:20.184 --> 00:27:21.674
+you're sitting for at this point,
+
+00:27:21.724 --> 00:27:23.924
+you wouldn't have to do that with personal catcher.
+
+00:27:26.054 --> 00:27:26.334
+Yeah,
+
+00:27:27.044 --> 00:27:27.804
+but in this case,
+
+00:27:27.804 --> 00:27:28.664
+and you're sitting up,
+
+00:27:28.674 --> 00:27:30.494
+think of it as you're setting up a podium,
+
+00:27:30.494 --> 00:27:30.984
+if you will.
+
+00:27:31.304 --> 00:27:36.204
+Singing oppa's a share device before we get i should 
+
+00:27:36.214 --> 00:27:40.414
+mention for those of you who are not part of the data right now 
+
+00:27:40.424 --> 00:27:44.214
+way have a button that specifically 
+
+00:27:45.084 --> 00:27:50.074
+viewable by instructors it's an additional and secondary option for ad 
+
+00:27:50.084 --> 00:27:54.514
+hoc captures through the browser the 
+
+00:27:54.674 --> 00:27:59.594
+fuchsia button is beta written allover universal capture again we've tried 
+
+00:27:59.594 --> 00:28:04.544
+to simplify the process of doing an ad hoc capture right now for those of you who are familiar 
+
+00:28:04.554 --> 00:28:09.274
+with the process for instructors right now they have to select the room 
+
+00:28:09.524 --> 00:28:14.234
+they have to select the device that just like the time you put the title 
+
+00:28:15.024 --> 00:28:19.914
+i have to go through four or five different steps and doing and capture then it goes away and then struck this 
+
+00:28:19.914 --> 00:28:24.894
+kind of blind whether or not a anything's actually going on with universal capture right now you 
+
+00:28:24.894 --> 00:28:29.794
+select the room and away you go you see universal capture 
+
+00:28:29.804 --> 00:28:30.434
+in the browser.
+
+00:28:30.824 --> 00:28:31.064
+Okay,
+
+00:28:31.064 --> 00:28:35.844
+so not only were we trying to provide more information for administrators but for instructors as well.
+
+00:28:35.844 --> 00:28:38.064
+So i just want to make sure i make that 
+
+00:28:42.288 --> 00:28:46.948
+well some confusion about the having multiple versions.
+
+00:28:47.218 --> 00:28:51.978
+So maybe just clarify that again we've got one version one download to 
+
+00:28:51.978 --> 00:28:55.258
+different basically install modes correct that's correct.
+
+00:28:55.258 --> 00:28:59.398
+So first vision is if you want a stolen for classroom capture 
+
+00:29:00.908 --> 00:29:05.498
+that's what we currently have right now for mac os the second vision will be 
+
+00:29:05.498 --> 00:29:10.228
+for personal capture so that's allowing your and uses or instructors to 
+
+00:29:10.238 --> 00:29:15.208
+download on the machine you have no insight into the into what's actually going on in the machine you have no 
+
+00:29:15.208 --> 00:29:20.148
+access rights or anything like that on dh that's very similar to the approach that we have 
+
+00:29:20.148 --> 00:29:24.478
+right now when you look at our legacy options there are two downloads 
+
+00:29:25.188 --> 00:29:30.028
+classroom capture personal capture on the pc personal capture only 
+
+00:29:30.038 --> 00:29:33.618
+on the mac so following the same model 
+
+00:29:45.228 --> 00:29:50.078
+tooling administrators always see two links classroom personal instructor's the 
+
+00:29:50.078 --> 00:29:54.848
+end users will only see personal right instructors i'm gonna 
+
+00:29:54.848 --> 00:29:57.768
+us i don't believe i'm going to set it up for you in a classroom environment 
+
+00:30:11.738 --> 00:30:16.668
+for structures you don't have the power to see what you want to 
+
+00:30:16.668 --> 00:30:21.648
+just mention how it's the react code base and how it's being developed so that we 
+
+00:30:21.648 --> 00:30:26.488
+intend to have this on cross platform quickly did you mention that already tony and she covered it a little bit 
+
+00:30:26.498 --> 00:30:31.278
+this warning soldier says a little bit of technical background so this is a war 
+
+00:30:31.548 --> 00:30:36.458
+based on internet technologies and again that that provided that makes 
+
+00:30:36.458 --> 00:30:41.448
+for a smarter solution allows us to grow in the future it's not going to become obsolete in the next six months 
+
+00:30:41.448 --> 00:30:46.448
+the next twelve months but it's a shared code base roughly eighty to ninety percent off the code base 
+
+00:30:46.678 --> 00:30:51.678
+between mac and pc is entirely shared the 
+
+00:30:51.678 --> 00:30:56.208
+only difference that ten percent difference comes in the actual capture engine itself and that's 
+
+00:30:56.208 --> 00:31:00.698
+where a lot of the work actually goes in but the 
+
+00:31:00.708 --> 00:31:05.038
+primary benefit for having a shared code base is whatever features we developed for mac 
+
+00:31:05.628 --> 00:31:10.128
+automatically gets developed pc and vice versa and it just makes for a quicker development 
+
+00:31:12.068 --> 00:31:16.978
+so people that's about the beta can use tell people how they want to use it to get access to it when i have to do procedure 
+
+00:31:17.558 --> 00:31:22.088
+uh yes so there's a couple of options available 
+
+00:31:22.618 --> 00:31:27.368
+one please feel free to contact linda or anybody on her team if you're interested in 
+
+00:31:27.368 --> 00:31:28.338
+looking at the beta,
+
+00:31:28.708 --> 00:31:33.278
+we'll get you signed up we'll make it available for your tenant and then you'll start receiving 
+
+00:31:33.278 --> 00:31:37.938
+notifications on the evan dashboard on a bimonthly basis we provide updates 
+
+00:31:37.948 --> 00:31:39.358
+off any fixes,
+
+00:31:39.358 --> 00:31:40.128
+any enhancements,
+
+00:31:40.128 --> 00:31:45.088
+any changes that were made to universal catcher so you can work directly with wonder in a team you 
+
+00:31:45.088 --> 00:31:50.078
+can feel free to contact me directly i'm happy to share my my cards 
+
+00:31:50.078 --> 00:31:50.308
+are 
+
+00:32:00.868 --> 00:32:05.798
+all right outstanding we're gonna cut it just because we're on a timetable here but that was great and there were a 
+
+00:32:05.798 --> 00:32:08.078
+million questions so that was excellent,
+
+00:32:08.088 --> 00:32:09.988
+thanks very much tony 
+
+00:32:15.058 --> 00:32:19.978
+so congratulations you made it barring a couple of announcements and 
+
+00:32:19.978 --> 00:32:22.518
+quick things we want to say before we get into that,
+
+00:32:22.528 --> 00:32:27.218
+why don't we bring down lorraine because we want to make a quick but exciting and interesting 
+
+00:32:27.218 --> 00:32:29.828
+announcement to this group before we all adjourn 
+
+00:32:32.398 --> 00:32:37.078
+hi we quite intimidating so i sat at the back so i can't see all your 
+
+00:32:37.078 --> 00:32:42.058
+faces and i kind of feel like you need a golden envelope and i can say the winner 
+
+00:32:42.058 --> 00:32:46.438
+is one of those moments and just a very quick two 
+
+00:32:46.438 --> 00:32:51.215
+minutes with an announcement i'm here on behalf of my boss sand marie 
+
+00:32:51.215 --> 00:32:56.005
+scott who sadly can't be with you today she had sought the lecture recording 
+
+00:32:56.255 --> 00:33:00.815
+program in edinburgh she was here last year and i know she had a fantastic 
+
+00:33:00.815 --> 00:33:05.215
+time so i'm here basically to announce that the twenty 
+
+00:33:05.215 --> 00:33:09.395
+nineteen active learning conference will be drumroll 
+
+00:33:10.105 --> 00:33:10.745
+in edinburgh 
+
+00:33:10.755 --> 00:33:15.875
+way 
+
+00:33:15.875 --> 00:33:20.245
+very much like for it to welcome you to admit it's a very beautiful city 
+
+00:33:20.385 --> 00:33:25.005
+lots of sites interesting places to visit you know how the air 
+
+00:33:25.005 --> 00:33:29.365
+conditioning is being quite cold today practice for next year 
+
+00:33:30.055 --> 00:33:34.845
+so with that we'll look forward to seeing you in end brett thank you thank you 
+
+00:33:37.285 --> 00:33:42.085
+that's very exciting we wanted to give you as much advanced notice for some of you that local here in london a recordable to 
+
+00:33:42.085 --> 00:33:47.065
+travel over you can plan and find budget and all that for that with enough lead time to make it happen but really exciting 
+
+00:33:47.065 --> 00:33:52.055
+to get to go head body had been there a couple of times fabulous city looking forward to it okay 
+
+00:33:52.255 --> 00:33:56.255
+the other thing we promised you was lovely parting gifts for the most 
+
+00:33:56.265 --> 00:34:00.825
+active recipient most active participants when i put my 
+
+00:34:00.825 --> 00:34:05.555
+glasses hanging out you know it's gonna get a small hand written notes to this uh 
+
+00:34:05.565 --> 00:34:10.445
+so for the coveted hope i can read your handwriting for the 
+
+00:34:10.445 --> 00:34:11.865
+coveted uh,
+
+00:34:11.875 --> 00:34:16.005
+amazon gift cards is this in any particular order or no no,
+
+00:34:16.005 --> 00:34:20.225
+i have no particular that's a top three terry wilmer from not him.
+
+00:34:20.775 --> 00:34:21.225
+All right.
+
+00:34:25.975 --> 00:34:27.005
+Congratulations.
+
+00:34:27.495 --> 00:34:28.105
+Uh,
+
+00:34:28.115 --> 00:34:31.265
+next laura mcnally from sheffield where you're here 
+
+00:34:33.545 --> 00:34:38.445
+you're welcome and less but not least richard is a chandler chandler i can't read the 
+
+00:34:38.445 --> 00:34:40.735
+writing from queen mary great.
+
+00:34:45.055 --> 00:34:45.665
+Okay,
+
+00:34:46.445 --> 00:34:51.322
+just anecdotally having been following the comments throughout the day on each session i 
+
+00:34:51.322 --> 00:34:54.772
+feel like i wish we give everybody in war because there were tons and tons of comments,
+
+00:34:54.772 --> 00:34:55.222
+questions,
+
+00:34:55.222 --> 00:34:57.242
+interactions and that was great and hopefully,
+
+00:34:57.522 --> 00:34:57.692
+you know,
+
+00:34:57.692 --> 00:35:02.522
+i don't have any of you are involved with the technology but never really sit in a presentation using it 
+
+00:35:02.532 --> 00:35:07.302
+maybe that was interesting experience toe kind of see what it was like is an end user if you're not 
+
+00:35:07.632 --> 00:35:08.492
+you're not familiar with it,
+
+00:35:08.632 --> 00:35:11.662
+i won't say that never crossed our mind that would be a good experience,
+
+00:35:12.992 --> 00:35:13.302
+okay,
+
+00:35:13.302 --> 00:35:18.182
+i think that was all the housekeeping i think that was it in terms of things i'm supposed to do so 
+
+00:35:18.192 --> 00:35:22.812
+in closing just to wrap it up you know i hope you feel like i do i think it was an 
+
+00:35:22.812 --> 00:35:27.602
+outstanding day you know personal opinion since i have the michael give you my personal opinions i 
+
+00:35:27.602 --> 00:35:32.142
+thought certainly all the presentations were excellent i like the timing it seemed like we had 
+
+00:35:32.392 --> 00:35:37.352
+lots of kind of a quick half hour forty minute kinds of sessions on a variety of topics that 
+
+00:35:37.352 --> 00:35:42.162
+was great there seem to be a nice balance of things that you want to know from echo and then 
+
+00:35:42.162 --> 00:35:46.892
+things we heard about from customers which is great certainly the customer stories of fantastic i mean the 
+
+00:35:46.902 --> 00:35:51.832
+stories that people told whether it was the speed or the scale of the the insight that they had 
+
+00:35:51.832 --> 00:35:56.832
+or the process that they followed and hopefully that's information that's valuable to all of you and you can 
+
+00:35:56.832 --> 00:36:01.492
+take that away and apply some of it to your own deployments which is really one of the main objectives for this whole thing 
+
+00:36:02.482 --> 00:36:07.372
+remember everybody had homework i don't have more gift cards but how many people uh how many people 
+
+00:36:07.372 --> 00:36:12.322
+met at least three people they hadn't met before every hand better go off then 
+
+00:36:12.332 --> 00:36:16.482
+okay let's keep going how many will skip how many five people that hadn't met before 
+
+00:36:18.382 --> 00:36:22.912
+i get better jump fashion about ten how many people met ten way go now 
+
+00:36:22.922 --> 00:36:27.792
+yeah so the magic number is somewhere between five and ten that's great well and hope you 
+
+00:36:27.792 --> 00:36:32.732
+exchange contact details and on you know you can kind of coordinate things moving forward and 
+
+00:36:32.732 --> 00:36:33.912
+keep the communication going.
+
+00:36:34.242 --> 00:36:38.172
+We always get great feedback about how great it is to hear stories and talk to other people,
+
+00:36:38.392 --> 00:36:42.762
+but it shouldn't only happen once a year so that that's on you guys to try to keep the communication 
+
+00:36:43.182 --> 00:36:48.152
+going and flowing so everybody that was involved in organizing this event 
+
+00:36:48.162 --> 00:36:52.878
+thank you very much again our friends at king's college for being incredible hosts again the 
+
+00:36:52.888 --> 00:36:54.978
+bar's high end but where's lauren bar's pretty high,
+
+00:36:54.978 --> 00:36:57.518
+so yeah way we believe you,
+
+00:36:57.518 --> 00:37:02.148
+but thanks to everybody from from kings who has been involved in organizing this toe,
+
+00:37:02.148 --> 00:37:04.478
+linda and her team who put a lot of energy into it,
+
+00:37:04.488 --> 00:37:08.938
+so great job by all of you and it's tim here we're temps always sneaks out 
+
+00:37:09.198 --> 00:37:09.528
+tim,
+
+00:37:09.528 --> 00:37:10.308
+we're the tall,
+
+00:37:10.558 --> 00:37:15.288
+skinny guy he's the guy that does all the organizing of the logistics and everything from the 
+
+00:37:15.288 --> 00:37:20.018
+name tags to the food to the whatever a ton of work that he puts into this and he usually 
+
+00:37:20.018 --> 00:37:21.768
+sneaks out at this time because he knows i'm going to do this.
+
+00:37:21.768 --> 00:37:22.948
+He doesn't want to be the center attention,
+
+00:37:23.328 --> 00:37:25.028
+but if you see him on the way out,
+
+00:37:25.038 --> 00:37:30.038
+thank him and tell him he did a great job as well i just want to reiterate thank you for alliance 
+
+00:37:30.038 --> 00:37:35.008
+to host the conference this year for linda on tim but who's not here but he has been 
+
+00:37:35.278 --> 00:37:39.848
+a lot of trafficking stuff and make sure everything ran smoothly so thank you to you 
+
+00:37:39.848 --> 00:37:40.578
+guys great,
+
+00:37:40.588 --> 00:37:40.898
+thanks.
+
+00:37:40.998 --> 00:37:41.848
+It was really fun.
+
+00:37:43.218 --> 00:37:46.358
+So just in closing on behalf of the company,
+
+00:37:46.358 --> 00:37:50.848
+i will i offer my personal and our collective thanks to all of you for being our 
+
+00:37:50.848 --> 00:37:53.478
+customers or about to be our customers if those folks were still here.
+
+00:37:53.828 --> 00:37:54.388
+Um,
+
+00:37:55.188 --> 00:37:55.468
+you know,
+
+00:37:55.468 --> 00:37:57.068
+we really do appreciate the confidence,
+
+00:37:57.068 --> 00:37:58.228
+the trust that you placed in us,
+
+00:37:58.228 --> 00:38:01.528
+we really do understand that this is a mission critical high visibility,
+
+00:38:01.838 --> 00:38:03.938
+the central solution in most cases,
+
+00:38:04.368 --> 00:38:09.328
+even if it isn't across the entire organization even being used in a couple of departments if something 
+
+00:38:09.328 --> 00:38:10.028
+goes wrong,
+
+00:38:10.118 --> 00:38:15.108
+there's usually help to pay we understand that so we also understand that for youto be our custom and put 
+
+00:38:15.108 --> 00:38:17.368
+your trust in us that's a big responsibility we carry,
+
+00:38:17.528 --> 00:38:18.658
+we take it very seriously.
+
+00:38:18.658 --> 00:38:20.198
+I hope it feels like we take it seriously.
+
+00:38:20.198 --> 00:38:22.078
+We really tried to doesn't mean we're perfect,
+
+00:38:22.088 --> 00:38:26.948
+but we try to do our best on dh and what we're thrilled it's it's great to come to 
+
+00:38:26.948 --> 00:38:30.648
+these meetings every year meet new people to see old friends and meet new people is well,
+
+00:38:30.998 --> 00:38:35.858
+i you have the pleasure of participating in these all over the world and i will tell you that the 
+
+00:38:35.858 --> 00:38:37.498
+stories that you guys talked about,
+
+00:38:37.498 --> 00:38:41.758
+the things that you're doing and and the way that the amiga group approaches,
+
+00:38:42.118 --> 00:38:44.818
+whether it's capture active learning or whatever you want to call it,
+
+00:38:44.828 --> 00:38:46.608
+is really leading edge.
+
+00:38:46.608 --> 00:38:46.878
+I mean,
+
+00:38:46.888 --> 00:38:51.748
+you guys are doing things that are being done in a lot of other places and doing extremely well and 
+
+00:38:51.748 --> 00:38:53.108
+gets a tribute to all of you,
+
+00:38:53.118 --> 00:38:55.839
+as well as the team that we have here to get that work done.
+
+00:38:55.839 --> 00:38:56.739
+So again,
+
+00:38:56.739 --> 00:38:57.509
+on behalf of the company,
+
+00:38:57.509 --> 00:38:58.369
+thank you very much.
+
+00:38:58.369 --> 00:39:01.889
+We really do appreciate you being our customer and taking the time to come to a meeting like this.
+
+00:39:02.339 --> 00:39:07.269
+And we look forward to another wildly successful year between now and the time we see you all on dead march 
+
+00:39:07.269 --> 00:39:07.649
+next year.
+
+00:39:08.129 --> 00:39:08.459
+Okay,
+
+00:39:08.469 --> 00:39:08.649
+so,
+
+00:39:08.649 --> 00:39:09.399
+thanks very much.
+
+00:39:17.419 --> 00:39:18.549
+Appreciate it.
+
+00:39:17.419 --> 00:39:18.549

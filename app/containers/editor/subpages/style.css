@@ -1,0 +1,13 @@
+.plain{
+  position: relative;
+}
+
+.bold{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.listStyle{
+  overflow: auto;
+  height: 128px;
+}
